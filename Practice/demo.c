@@ -1,18 +1,8 @@
-#include <stdio.h>
+# include <stdio.h>
+
 int main()
 {
-    int number = 25;
-    char star = '*' ;
-    int age = 24 ;
-    age = 25 ;
-    float pi = 3.14;
-
-    int a = 30 ;
-    int A = 40 ;
-
-    int _age = 22;
-    
-    int final_price = 100 ;
-
-    return 0;
+    int x = 5 ;
+    printf("%d%d%d",x++,++x,x);
+    printf("\n");
 }
